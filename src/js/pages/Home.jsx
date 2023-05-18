@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import confetti from 'canvas-confetti'
 import Card from '../component/Card.jsx'
 import Error from '../component/Error.jsx'
+import Menu from '../component/Menu.jsx'
 
 const initialStateUser = {
     fullname: "",
@@ -52,7 +53,8 @@ function Home() {
 
     return (
         <>
-            <div className="container">
+
+            <div className="container mt-5">
                 <div className="row justify-content-center">
                     <div className="col-12 col-md-7">
                         <h1 className='mb-3'>Registro de usuarios</h1>
